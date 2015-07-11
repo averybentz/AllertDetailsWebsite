@@ -133,6 +133,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             </div>
 		<!---End-boxs---->
+        <!---<a href="mailto:name1@rapidtables.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com
+         &amp;subject=The%20subject%20of%20the%20email
+         &amp;body=The%20body%20of%20the%20email">
+         Send mail with cc, bcc, subject and body</a>
+         ---->
 		<div class="clear"> </div>
 		<div class="contact">
 			<div class="contact-device">
@@ -141,13 +146,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="contact-form">
 				<h3>Want to know more features?</h3>
 				<form>
-					<span>Name</span>
+                        <span>Name:</span>
+					<input type="text" name="Name" value = "Your name" id= "Name">
+                        <span>Email:</span>
 					<input type="text">
-					<span>Email</span>
-					<input type="text">
-					<span>Subject</span>
+                        <span>Subject:</span>
 					<textarea> </textarea>
 					<span><input type="submit" value="Send"></span>
+                    <a href="mailto:averybentz@bell.net? cc= document.getElementbyID("Name").value"><span>Email Us<span></a>
 				</form>
 			</div>
 		</div>
