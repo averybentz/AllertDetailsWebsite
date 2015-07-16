@@ -7,9 +7,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 	<head>
+        <!--- Title ---->
 		<title>Welcome to Allert | New App :: Home</title>
+        
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
-		<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet" type="text/css" />
     </head>
 	<body>
     <script>
@@ -36,10 +38,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="header">
 		</div>
 		<!---end-header---->
-	
-	<!---start-content---->
+        
+    <!-- Side nav -->
+    <nav class="side-nav" role="navigation">
+        
+        <ul class="nav-side-nav">
+            <li><a class="tooltip-side-nav" href="#top-section" title="" data-original-title="Home" data-placement="left"></a></li>
+            <li><a class="tooltip-side-nav" href="#section-2" title="" data-original-title="Features" data-placement="left"></a></li>
+            <li><a class="tooltip-side-nav" href="#section-3" title="" data-original-title="Subscribe" data-placement="left"></a></li>
+            <li><a class="tooltip-side-nav" href="#to-top" title="" data-original-title="Back" data-placement="left"></a></li>
+        </ul>
+        
+    </nav> <!-- /.side-nav -->
+
+    <!---start-content---->
 	<div class="content">
 		<!---start-girds---->
+        <!--- Top ---->
+        <section class="top-section" id="top-section">
 		<div class="grids">
 			<div class="left-grid">
 				<a href="#"><img src="images/click.png" title="demo"/></a>
@@ -55,6 +71,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="clear"> </div>
 		<!---End-girds---->
+        
 		<!---start-boxs---->
 		<div class="boxs">
 			<div class="box">
@@ -133,28 +150,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             </div>
 		<!---End-boxs---->
-        <!---<a href="mailto:name1@rapidtables.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com
-         &amp;subject=The%20subject%20of%20the%20email
-         &amp;body=The%20body%20of%20the%20email">
-         Send mail with cc, bcc, subject and body</a>
-         ---->
 		<div class="clear"> </div>
 		<div class="contact">
 			<div class="contact-device">
 				<img src="images/divice1.png" title="divice" />
 			</div>
 			<div class="contact-form">
-				<h3>Want to know more features?</h3>
+				<h3>Subscribe to get delightfully infrequent updates</h3>
 				<form>
                         <span>Name:</span>
-					<input type="text" name="Name" value = "Your name" id= "Name">
+					<input type="text" name="Name" placeholder="Your name" id= "Name">
                         <span>Email:</span>
-					<input type="text">
+					<input type="text" name="Email" placeholder="Your email">
                         <span>Subject:</span>
 					<textarea> </textarea>
 					<span><input type="submit" value="Send"></span>
-                    <!---<a href="mailto:averybentz@bell.net?cc= document.getElementbyID("Name").value"<span>Email Us<span></a>
-                     ---->
 				</form>
 			</div>
 		</div>
